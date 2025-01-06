@@ -1,0 +1,13 @@
+C:\worspace_csharp\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.exe
+C:\worspace_csharp\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.deps.json
+C:\worspace_csharp\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.runtimeconfig.json
+C:\worspace_csharp\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.runtimeconfig.dev.json
+C:\worspace_csharp\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\worspace_csharp\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\worspace_csharp\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\worspace_csharp\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfoInputs.cache
+C:\worspace_csharp\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfo.cs
+C:\worspace_csharp\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CoreCompileInputs.cache
+C:\worspace_csharp\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
+C:\worspace_csharp\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb
+C:\worspace_csharp\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.genruntimeconfig.cache
