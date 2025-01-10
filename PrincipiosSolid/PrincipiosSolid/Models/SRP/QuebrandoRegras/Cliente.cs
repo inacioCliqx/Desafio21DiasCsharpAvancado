@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Text;
 
 namespace PrincipiosSolid.Models.SRP.QuebrandoRegras
@@ -15,12 +16,31 @@ namespace PrincipiosSolid.Models.SRP.QuebrandoRegras
 
         public void Salvar()
         {
+            if (!this.ValidandoDados()) throw new Exception("Erro na validação dos dados");
             Console.WriteLine("Salvando o objeto no banco de dados");
             EnviarSMS();
         }
+        private bool ValidandoDados()
+        {
+            Console.WriteLine("Validando classe");
+            return true;
+        }
         public void Excluir()
         {
-            Console.WriteLine("Excluindo o objeto no banco de dados");
+            using (var cn = new SqlConnection())
+            {
+                var cmd = new SqlCommand();
+                cn.ConnectionString = "MInha conexao";
+                cmd.Connection = cn;
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = "delete from clientes where id = "+ 1;
+
+                cn.Open();
+                cmd.ExecuteScalar();
+                cn.Close();
+                Console.WriteLine("Excluindo o objeto no banco de dados");
+
+            }
         }
         public bool EnviarSMS()
         {
