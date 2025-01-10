@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|c:\\worspace_csharp\\desafio21diascsharpavancado\\abstracao\\abstracao\\joao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|solutionrelative:abstracao\\joao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|c:\\worspace_csharp\\desafio21diascsharpavancado\\abstracao\\abstracao\\hondacivic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|solutionrelative:abstracao\\hondacivic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|c:\\worspace_csharp\\desafio21diascsharpavancado\\abstracao\\abstracao\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|solutionrelative:abstracao\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|c:\\worspace_csharp\\desafio21diascsharpavancado\\abstracao\\abstracao\\interfaces\\icarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|solutionrelative:abstracao\\interfaces\\icarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|c:\\worspace_csharp\\desafio21diascsharpavancado\\abstracao\\abstracao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802C0337-89BC-4424-88E0-F9D24C525DD8}|Abstracao\\Abstracao.csproj|solutionrelative:abstracao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Joao.cs",
+              "DocumentMoniker": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\Joao.cs",
+              "RelativeDocumentMoniker": "Abstracao\\Joao.cs",
+              "ToolTip": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\Joao.cs",
+              "RelativeToolTip": "Abstracao\\Joao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T02:28:09.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICarro.cs",
+              "DocumentMoniker": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\Interfaces\\ICarro.cs",
+              "RelativeDocumentMoniker": "Abstracao\\Interfaces\\ICarro.cs",
+              "ToolTip": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\Interfaces\\ICarro.cs",
+              "RelativeToolTip": "Abstracao\\Interfaces\\ICarro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T02:13:52.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HondaCivic.cs",
+              "DocumentMoniker": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\HondaCivic.cs",
+              "RelativeDocumentMoniker": "Abstracao\\HondaCivic.cs",
+              "ToolTip": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\HondaCivic.cs",
+              "RelativeToolTip": "Abstracao\\HondaCivic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T02:05:45.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\Carro.cs",
+              "RelativeDocumentMoniker": "Abstracao\\Carro.cs",
+              "ToolTip": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\Carro.cs",
+              "RelativeToolTip": "Abstracao\\Carro.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T02:02:03.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\Program.cs",
+              "RelativeDocumentMoniker": "Abstracao\\Program.cs",
+              "ToolTip": "C:\\worspace_csharp\\Desafio21DiasCsharpAvancado\\Abstracao\\Abstracao\\Program.cs",
+              "RelativeToolTip": "Abstracao\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T02:01:51.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
