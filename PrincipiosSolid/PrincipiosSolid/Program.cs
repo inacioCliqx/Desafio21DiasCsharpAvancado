@@ -1,4 +1,5 @@
-﻿using PrincipiosSolid.Models.SRP.Solucao;
+﻿using PrincipiosSolid.Models.OCP.Solucao;
+using PrincipiosSolid.Models.SRP.Solucao;
 using System;
 
 namespace PrincipiosSolid
@@ -7,26 +8,29 @@ namespace PrincipiosSolid
     {
         static void Main(string[] args)
         {
-            var cliente = new Cliente();
-            var repositorioCliente = new ClienteRepositorio();
-            var clienteValidacao = new ClienteValidacao();
-            var sms = new SMS();
+            IPessoa pessoa = new Fisica();
+            IPessoa pessoaJuridica = new Juridica();
 
-            cliente.Id = 1;
-            cliente.Nome = "Maria";
-            cliente.Telefone = "1499999999";
-            cliente.Cpf = "324234234243";
+            //var cliente = new Cliente();
+            //var repositorioCliente = new ClienteRepositorio();
+            //var clienteValidacao = new ClienteValidacao();
+            //var sms = new SMS();
 
-            try
-            {
-                clienteValidacao.ValidandoDados(cliente);
-                repositorioCliente.Salvar(ref cliente);
-                sms.EnviarSMS();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Erro ao validar. "+ ex.Message);
-            }
+            //cliente.Id = 1;
+            //cliente.Nome = "Maria";
+            //cliente.Telefone = "1499999999";
+            //cliente.Cpf = "324234234243";
+
+            //try
+            //{
+            //    clienteValidacao.ValidandoDados(cliente);
+            //    repositorioCliente.Salvar(ref cliente);
+            //    sms.EnviarSMS();
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Erro ao validar. "+ ex.Message);
+            //}
 
         }
     }
