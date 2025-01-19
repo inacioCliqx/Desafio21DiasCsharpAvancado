@@ -1,4 +1,5 @@
-﻿using PrincipiosSolid.Models.OCP.Solucao;
+﻿using PrincipiosSolid.Models.LSP.Solucao;
+using PrincipiosSolid.Models.OCP.Solucao;
 using PrincipiosSolid.Models.SRP.Solucao;
 using System;
 
@@ -6,10 +7,18 @@ namespace PrincipiosSolid
 {
     internal class Program
     {
+        public static void ImprimirNome(A objeto)
+        {
+            objeto.GetNome();
+        }
         static void Main(string[] args)
         {
-            IPessoa pessoa = new Fisica();
-            IPessoa pessoaJuridica = new Juridica();
+            var objetoA = new A();
+            var objetoB = new B();
+
+            ImprimirNome(objetoB);
+            //IPessoa pessoa = new Fisica();
+            //IPessoa pessoaJuridica = new Juridica();
 
             //var cliente = new Cliente();
             //var repositorioCliente = new ClienteRepositorio();
